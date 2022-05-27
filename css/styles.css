@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: #1c1c1c;
+}
+
+/* AVATAR MAIN CONTAINER */
+
+.avatar {
+  position: relative;
+  height: 10em;
+  width: 10em;
+}
+
+/* AVATAR CIRLE BIG BADGE */
+
+.avatar__content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5em;
+  color: #241676;
+  background-color: #9697a4;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* AVATAR IMAGE */
+
+.avatar__img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* AVATAR BADGE */
+
+.avatar__buble {
+  position: absolute;
+  bottom: -0.7em;
+  left: 40%; /* calc(50% - 1em) */
+  font-size: 0.7em;
+  color: aqua;
+  background-color: #11402a;
+  text-shadow: #1c1c1c;
+  /* padding-top: 5em; */
+  /* bottom: 0; */
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  border-color: orange;
+  border-style: groove;
+  border: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
